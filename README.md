@@ -1,6 +1,8 @@
 # Moscow-Fun-Plaza
 ### Welcome to our app, "Moscow Fun Plaza"!
 
+[![en](https://img.shields.io/badge/lang-ru-red.svg)](https://github.com/DimDimich-creator/Moscow-Fun-Plaza/blob/main/README.ru.md)
+
 This app is designed to help you find and plan fun activities to do in Moscow. Whether you are a tourist looking for things to do or a local looking for new experiences, our app has something for everyone.
 
 Here are some of the features our app offers:
