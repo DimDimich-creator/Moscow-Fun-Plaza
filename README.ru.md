@@ -1,7 +1,8 @@
 # Москва-Фан-Плаза
+
 ### Добро пожаловать в наше приложение "Moscow Fun Plaza"!
 
-![logo](/Logo.svg)
+![logo](src\img\Logo.svg)
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/DimDimich-creator/Moscow-Fun-Plaza)
 

@@ -2,7 +2,7 @@
     "name": "moscow-fun-plaza",
     "version": "1.0.0",
     "description": "helloworld",
-    "main": "main.js",
+    "main": "src/main.js",
     "scripts": {
         "start": "electron .",
         "test": "echo \"Error: no test specified\" && exit 1"
