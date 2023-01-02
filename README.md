@@ -29,3 +29,15 @@ To install, you need to download the repository to your computer and run the fol
 npm install
 npm start
 ```
+### Task List
+
+- [ ] Recommendation Feed
+  - [ ] Event card
+
+- [ ] Login
+  - [ ] Registration
+  - [ ] Authorization
+  - [ ] First entry
+- [ ] Personal account
+- [ ] Admin panel
+- [ ] Search with filter
