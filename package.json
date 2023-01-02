@@ -1,0 +1,23 @@
+{
+    "name": "moscow-fun-plaza",
+    "version": "1.0.0",
+    "description": "helloworld",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DimDimich-creator/Moscow-Fun-Plaza.git"
+    },
+    "author": "DimDimich",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DimDimich-creator/Moscow-Fun-Plaza/issues"
+    },
+    "homepage": "https://github.com/DimDimich-creator/Moscow-Fun-Plaza#readme",
+    "devDependencies": {
+        "electron": "^22.0.0"
+    }
+}
