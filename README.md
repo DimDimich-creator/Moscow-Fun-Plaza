@@ -2,7 +2,7 @@
 
 ### Welcome to our app, "Moscow Fun Plaza"!
 
-![logo](src/img/Logo.svg)
+![logo](frontend/src/img/Logo.svg)
 
 [![en](https://img.shields.io/badge/lang-ru-red.svg)](https://github.com/DimDimich-creator/Moscow-Fun-Plaza/blob/main/README.ru.md)
 ### App
