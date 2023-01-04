@@ -3,16 +3,53 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="fonts/songersemiexpanded.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/common.js"></script>
+    <title>Moscow Fun Plaza</title>
 </head>
 
-<body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>, Chromium
-    <span id="chrome-version"></span>, and Electron
-    <span id="electron-version"></span>.
+<body class="app">
+    <!-- <header class="header">
+        <div class="sp"></div>
+        <div class="icon"></div>
+        <div class="title"></div>
+        <div class="btn-min"><img src="img/close.svg" width="20px" alt="" /></div>
+        <div class="btn-max"><img src="img/close.svg" width="20px" alt="" /></div>
+        <div class="btn-close">
+            <img src="img/close.svg" width="20px" alt="" />
+        </div>
+        <div class="sp"></div>
+    </header> -->
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="# " class="header__logo"><img src="img/Logo.svg" alt=""></a>
+                <h1 class="header__title">ЛЕНТА МЕРОПРИЯТИЙ</h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__menu _container">
+                <div class="menu__profile">
+                    <div class="profile__icon"><img src="img/Profile.svg" alt=""></div>
+                    <div class="profile__name">Дим Димыч</div>
+                    <div class="profile__links">
+                        <a href="#" class="profile__link">Профиль</a>
+                        <a href="#" class="profile__link">Профиль</a>
+                        <a href="#" class="profile__link">Профиль</a>
+                        <a href="#" class="profile__link">Профиль</a>
+                        <a href="#" class="profile__link">Профиль</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main__card-feed">
+
+            </div>
+        </main>
+
 </body>
 
 </html>

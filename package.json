@@ -19,5 +19,9 @@
     "homepage": "https://github.com/DimDimich-creator/Moscow-Fun-Plaza#readme",
     "devDependencies": {
         "electron": "^22.0.0"
+    },
+    "dependencies": {
+        "@electron/remote": "^2.0.9"
+
     }
 }

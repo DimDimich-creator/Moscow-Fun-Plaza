@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "SONGER SemiExpanded";
+    src: local("SONGER SemiExpanded Medium"), local("SONGERSemiExpanded-Medium"), url("Songersemiexpandedmedium.woff2") format("woff2"), url("Songersemiexpandedmedium.woff") format("woff"), url("Songersemiexpandedmedium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SONGER SemiExpanded";
+    src: local("SONGER SemiExpanded"), local("SONGERSemiExpanded"), url("Songersemiexpanded.woff2") format("woff2"), url("Songersemiexpanded.woff") format("woff"), url("Songersemiexpanded.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SONGER SemiExpanded";
+    src: local("SONGER SemiExpanded Heavy"), local("SONGERSemiExpanded-Heavy"), url("Songersemiexpandedheavy.woff2") format("woff2"), url("Songersemiexpandedheavy.woff") format("woff"), url("Songersemiexpandedheavy.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SONGER SemiExpanded";
+    src: local("SONGER SemiExpanded Bold"), local("SONGERSemiExpanded-Bold"), url("Songersemiexpandedbold.woff2") format("woff2"), url("Songersemiexpandedbold.woff") format("woff"), url("Songersemiexpandedbold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SONGER SemiExpanded";
+    src: local("SONGER SemiExpanded ExtraBold"), local("SONGERSemiExpanded-ExtraBold"), url("Songersemiexpandedextrabold.woff2") format("woff2"), url("Songersemiexpandedextrabold.woff") format("woff"), url("Songersemiexpandedextrabold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
