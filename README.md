@@ -2,10 +2,10 @@
 
 ### Welcome to our app, "Moscow Fun Plaza"!
 
-![logo](src\img\Logo.svg)
+![logo](src/img/Logo.svg)
 
 [![en](https://img.shields.io/badge/lang-ru-red.svg)](https://github.com/DimDimich-creator/Moscow-Fun-Plaza/blob/main/README.ru.md)
-
+### App
 This app is designed to help you find and plan fun activities to do in Moscow. Whether you are a tourist looking for things to do or a local looking for new experiences, our app has something for everyone.
 
 Here are some of the features our app offers:
@@ -21,3 +21,23 @@ Here are some of the features our app offers:
 5. Reviews and ratings: Read reviews and ratings from other users to help you make informed decisions about which activities to do.
 
 Thank you for choosing our app for your Moscow fun time planning! We hope you have a great time and come back to use our app again in the future.
+
+### Install
+
+To install, you need to download the repository to your computer and run the following commands:
+```
+npm install
+npm start
+```
+### Task List
+
+- [ ] Recommendation Feed
+  - [ ] Event card
+
+- [ ] Login
+  - [ ] Registration
+  - [ ] Authorization
+  - [ ] First entry
+- [ ] Personal account
+- [ ] Admin panel
+- [ ] Search with filter
