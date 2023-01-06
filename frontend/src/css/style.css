@@ -1,4 +1,26 @@
 * {
+    scrollbar-width: auto;
+    scrollbar-color: #f7b239 #000000;
+}
+
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #151517;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #f7b239;
+    border-radius: 34px;
+    border: 0px none #ffffff;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +33,7 @@ body {
     font-weight: 400;
     color: #ffffff;
     font-family: "SONGER SemiExpanded";
-    background: #000000;
+    background: #151517;
 }
 
 .wrapper {
@@ -24,7 +46,7 @@ body {
 ._container {
     max-width: 1920px;
     margin: 0 auto;
-    padding: 10px 15px;
+    padding: 10px 30px;
 }
 
 ._ibg {
@@ -65,12 +87,17 @@ body {
     }
 }
 
-.main {}
+.main {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
 
 .main__menu {}
 
 .menu__profile {
-    border: 3px solid #ffffff;
+    background: #202022;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.65), -5px -5px 12px rgba(255, 255, 255, 0.12);
     border-radius: 35px;
     width: 315px;
     padding: 45px 0;
@@ -108,9 +135,7 @@ body {
 
 @media (max-width: 800px) {
     .menu__profile {
-        border: 3px solid #ffffff;
-        border-radius: 35px;
-        width: 215px;
+        width: 236px;
         padding: 45px 0;
     }
     .profile__icon img {
@@ -129,4 +154,66 @@ body {
         font-weight: 700;
         font-size: 10px;
     }
+}
+
+.main__card-feed {}
+
+.card-feed__cards {
+    max-width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    transition: flex 5s ease;
+}
+
+.card-feed__card {
+    background: #202022;
+    padding: 40px 40px 90px 40px;
+}
+
+.card__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__icon {}
+
+.card__date {
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card__place {
+    margin: 82px 0 0 0;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.card__title {
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    margin: 11px 0 0 0;
+    max-width: 340px;
+}
+
+.card__address {
+    margin: 72px 0 0 0;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.card__bg-img img {
+    width: 298px;
+    height: 272px;
+    top: -185px;
+    left: 80px;
 }
