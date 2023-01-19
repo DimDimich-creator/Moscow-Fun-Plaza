@@ -1,0 +1,119 @@
+.wrapper {
+    margin: 0 auto;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 172rem;
+}
+
+._container {
+    max-width: 192rem;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+}
+
+._ibg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+._ibg img {
+    width: 100%;
+    height: 100%;
+    // object-fit: cover;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 23.3rem;
+    height: 8.5rem;
+}
+
+.header__title {
+    margin: 0;
+    margin-left: 13.8rem;
+    font-weight: 800;
+    font-size: 5rem;
+    padding: 3rem 4rem;
+    line-height: 12.2rem;
+}
+
+.main__menu{
+    display: block;
+    margin: 0;
+}
+
+.menu__profile {
+    border: 0.3rem solid #ffffff;
+    border-radius: 3.5rem;
+    width: 28.8rem;
+    padding: 4.5rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile__name {
+    margin: 3.8rem 0 0 0;
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+.profile__links {
+    margin: 3.8rem 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__link {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: white;
+    margin: 1rem 0 0 0;
+    text-decoration: none;
+}
+.menu__links{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 6.1rem;
+    max-width: 35.1rem;
+}.links{
+    &__link{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 28.8rem;
+        height: 6rem;
+        filter: drop-shadow(-0.5rem -0.5rem 1.2rem rgba(255, 255, 255, 0.12)) drop-shadow(0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.65));
+        background: #202022;
+        border-radius: 10rem;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+        color: #FFFFFF;
+        a{
+            color: #FFFFFF;
+        }
+    }
+}
+.profile__icon{
+    width: 10rem;
+    height: 10rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

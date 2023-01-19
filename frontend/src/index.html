@@ -3,124 +3,37 @@
 
 <head>
     <meta charset="UTF-8" />
-
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
     <link rel="stylesheet" href="fonts/songersemiexpanded.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     <script src="js/common.js"></script>
     <title>Moscow Fun Plaza</title>
 </head>
 
 <body class="app">
-    <!-- <header class="header">
-        <div class="sp"></div>
-        <div class="icon"></div>
-        <div class="title"></div>
-        <div class="btn-min"><img src="img/close.svg" width="20px" alt="" /></div>
-        <div class="btn-max"><img src="img/close.svg" width="20px" alt="" /></div>
-        <div class="btn-close">
-            <img src="img/close.svg" width="20px" alt="" />
-        </div>
-        <div class="sp"></div>
-    </header> -->
-
     <div class="wrapper">
         <header class="header">
             <div class="header__container _container">
                 <a href="# " class="header__logo"><img src="img/Logo.svg" alt=""></a>
-                <h1 class="header__title">ЛЕНТА МЕРОПРИЯТИЙ</h1>
+                <h1 class="header__title">Лента мероприятий</h1>
             </div>
         </header>
-        <main class="main _container">
-            <div class="main__menu ">
+        <main class="main">
+            <div class="main__menu _container menu">
                 <div class="menu__profile">
                     <div class="profile__icon"><img src="img/Profile.svg" alt=""></div>
-                    <div class="profile__name">Дим Димыч</div>
+                    <div class="profile__name">Личный кабинет</div>
                     <div class="profile__links">
-                        <a href="#" class="profile__link">Профиль</a>
-                        <a href="#" class="profile__link">Настройки</a>
-                        <a href="#" class="profile__link">Профиль</a>
-                        <a href="#" class="profile__link">Профиль</a>
-                        <a href="#" class="profile__link">Профиль</a>
-                    </div>
-                </div>
-            </div>
-            <div class="main__card-feed ">
-                <div class="card-feed__cards">
-                    <div class="card-feed__card">
-                        <div class="card__column">
-                            <div class="card__icon"><img src="img/icons_cards.svg" alt=""></div>
-                            <div class="card__date">12 Октября 2023</div>
-                        </div>
-                        <div class="card__place">Клуб Лукин Румс</div>
-                        <div class="card__title">Новогодняя программа 2022-2023</div>
-                        <div class="card__address">Москва, ул. Новый Арбат, 23А</div>
-                        <div class="card__bg-img _ibg"><img src="img/bg_img.png" alt=""></div>
-                    </div>
-                    <div class="card-feed__card">
-                        <div class="card__column">
-                            <div class="card__icon"><img src="img/icons_cards.svg" alt=""></div>
-                            <div class="card__date">12 Октября 2023</div>
-                        </div>
-                        <div class="card__place">Клуб Лукин Румс</div>
-                        <div class="card__title">Новогодняя программа 2022-2023</div>
-                        <div class="card__address">Москва, ул. Новый Арбат, 23А</div>
-                        <div class="card__bg-img _ibg"><img src="img/bg_img.png" alt=""></div>
-                    </div>
-                    <div class="card-feed__card">
-                        <div class="card__column">
-                            <div class="card__icon"><img src="img/icons_cards.svg" alt=""></div>
-                            <div class="card__date">12 Октября 2023</div>
-                        </div>
-                        <div class="card__place">Клуб Лукин Румс</div>
-                        <div class="card__title">Новогодняя программа 2022-2023</div>
-                        <div class="card__address">Москва, ул. Новый Арбат, 23А</div>
-                        <div class="card__bg-img _ibg"><img src="img/bg_img.png" alt=""></div>
-                    </div>
-                    <div class="card-feed__card">
-                        <div class="card__column">
-                            <div class="card__icon"><img src="img/icons_cards.svg" alt=""></div>
-                            <div class="card__date">12 Октября 2023</div>
-                        </div>
-                        <div class="card__place">Клуб Лукин Румс</div>
-                        <div class="card__title">Новогодняя программа 2022-2023</div>
-                        <div class="card__address">Москва, ул. Новый Арбат, 23А</div>
-                        <div class="card__bg-img _ibg"><img src="img/bg_img.png" alt=""></div>
-                    </div>
-                    <div class="card-feed__card">
-                        <div class="card__column">
-                            <div class="card__icon"><img src="img/icons_cards.svg" alt=""></div>
-                            <div class="card__date">12 Октября 2023</div>
-                        </div>
-                        <div class="card__place">Клуб Лукин Румс</div>
-                        <div class="card__title">Новогодняя программа 2022-2023</div>
-                        <div class="card__address">Москва, ул. Новый Арбат, 23А</div>
-                        <div class="card__bg-img _ibg"><img src="img/bg_img.png" alt=""></div>
-                    </div>
-                    <div class="card-feed__card">
-                        <div class="card__column">
-                            <div class="card__icon"><img src="img/icons_cards.svg" alt=""></div>
-                            <div class="card__date">12 Октября 2023</div>
-                        </div>
-                        <div class="card__place">Клуб Лукин Румс</div>
-                        <div class="card__title">Новогодняя программа 2022-2023</div>
-                        <div class="card__address">Москва, ул. Новый Арбат, 23А</div>
-                        <div class="card__bg-img _ibg"><img src="img/bg_img.png" alt=""></div>
-                    </div>
-                    <div class="card-feed__card">
-                        <div class="card__column">
-                            <div class="card__icon"><img src="img/icons_cards.svg" alt=""></div>
-                            <div class="card__date">12 Октября 2023</div>
-                        </div>
-                        <div class="card__place">Клуб Лукин Румс</div>
-                        <div class="card__title">Новогодняя программа 2022-2023</div>
-                        <div class="card__address">Москва, ул. Новый Арбат, 23А</div>
-                        <div class="card__bg-img _ibg"><img src="img/bg_img.png" alt=""></div>
+                        <a href="profile.html" class="profile__link">Профиль</a>
+                        <a href="#" class="profile__link">Заказы (0)</a>
+                        <a href="#" class="profile__link">Избранное (0)</a>
+                        <a href="#" class="profile__link">Программа лояльности</a>
+                        <a href="#" class="profile__link">Поддержка (0)</a>
                     </div>
                 </div>
             </div>
         </main>
-
+    </div>
 </body>
 
 </html>

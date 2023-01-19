@@ -1,0 +1,118 @@
+.bigCard{
+    position: relative;
+    width: 146.5rem;
+    min-height: 72rem;
+    padding: 4.5rem 10rem 0 8rem;
+    background: #202022;
+    &__column{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 8rem;
+    }
+    &__org{
+        display: flex;
+        align-items: top;
+        gap: 4rem;
+        &_name{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.3rem;
+            line-height: 3.2rem;
+            color: rgba(255, 255, 255, 0.57);
+        }
+    }
+    &__logo{
+        width: 7.7rem;
+        height: 7.7rem;
+        border-radius: 0.5rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__btns{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 3.4rem;
+    }
+    &__heart{
+        width: 5rem;
+        height: 5rem;
+        background: none;
+        border: none;
+        filter: drop-shadow(-0.5rem -0.5rem 1.2rem rgba(255, 255, 255, 0.12)) drop-shadow(0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.65));
+        background: #202022;
+        border-radius: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            display: block;
+            width: 50%;
+            height: 50%;
+        }
+    }
+    &__date{
+        margin-top: 6rem;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2.8rem;
+        color: #FFFFFF;
+    }
+    &__title{
+        margin-top: 1.4rem;
+        font-family: 'SONGER SemiExpanded';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 4.5rem;
+        line-height: 6rem;
+        color: #FFFFFF;
+    }
+    &__address{
+        margin-top: 1.4rem;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2.8rem;
+        color: rgba(255, 255, 255, 0.57);
+    }
+    &__price{
+        border: none;
+        background: #202022;
+        border-radius: 8rem;
+        width: 22rem;
+        height: 5rem;
+        box-shadow: inset -0.65rem -0.65rem 1.56rem rgba(255, 255, 255, 0.12), inset 0.65rem 0.65rem 1.95rem rgba(0, 0, 0, 0.65);
+        font-family: 'SONGER SemiExpanded';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    &__tags{
+        margin-top: 9rem;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.3rem;
+        line-height: 3.2rem;
+        color: #FFFFFF;
+    }
+    &__bg-img{
+        position: absolute;
+        bottom: 0;
+        right: 9rem;
+        width: 75rem;
+        height: 55rem;
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}

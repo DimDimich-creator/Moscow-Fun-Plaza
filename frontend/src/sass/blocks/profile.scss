@@ -1,0 +1,62 @@
+.profile{
+    max-width: 120.7rem;
+    min-height: 32rem;
+    background: #202022;
+    display: grid;
+    grid-template-columns: 16.4rem, 51rem, 5rem;
+    grid-template-rows: 8rem;
+    padding: 3.3rem 4.7rem 0 5.3rem;
+    &__title{
+        grid-row: 1;
+        grid-column: 2/3;
+        font-family: 'SONGER SemiExpanded';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.8rem;
+        line-height: 5rem;
+        color: #FFFFFF;
+    }
+    &__img{
+        grid-row: 1;
+        grid-column: 1/2;
+        width: 16.4rem;
+        height: 16.4rem;
+        img{
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    &__set{
+        background: none;
+        border: none;
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+        grid-column: 3/4;
+        grid-row: 1;
+        background: #202022;
+        border-radius: 10rem;
+        justify-content: center;
+        align-items: center;
+        filter: drop-shadow(-0.5rem -0.5rem 1.2rem rgba(255, 255, 255, 0.12)) drop-shadow(0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.65));
+        justify-self: flex-end;
+        img{
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+        }
+    }
+    &__info{
+        grid-column: 2/3;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: .9rem;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.05rem;
+        line-height: 2.8rem;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,37 @@
+@import 'libs/normalize.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: calc(100vw / 1920 * 10);
+    overflow-x: clip;
+}
+body{
+    margin: 0 auto;
+    height: 100%;
+    font-weight: 400;
+    font-family: "SONGER SemiExpanded";
+    overflow-x: clip;
+    color: #ffffff;
+    background: #000000;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.main{
+    display: flex;
+    gap: 2.4rem;
+}
+@import 'blocks/main';
+@import 'blocks/profile';
+@import 'blocks/favorite';
+@import 'blocks/cards';
+@import 'blocks/bigCard';
+
+
+
+
+// @import 'base/media'

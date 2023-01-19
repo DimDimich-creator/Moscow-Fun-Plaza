@@ -1,0 +1,59 @@
+.card-feed__cards {
+    max-width: 192rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+    transition: flex 5s ease;
+}
+
+.card-feed__card {
+    background: #202022;
+    padding: 3rem 3rem 0 2.7rem;
+    width: 38.6rem;
+    height: 38.6rem;
+    position: relative;
+}
+
+.card__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card__date {
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.card__place {
+    margin: 6.7rem 0 0 0;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.card__title {
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 2.3rem;
+    line-height: 3.3rem;
+    margin-top: 0.8rem;
+    max-width: 34rem;
+}
+
+.card__address {
+    margin-top: 5.8rem;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.card__bg-img img {
+    width: 24.4rem;
+    height: 22.3rem;
+}

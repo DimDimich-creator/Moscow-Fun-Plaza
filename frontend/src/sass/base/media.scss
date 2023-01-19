@@ -1,0 +1,35 @@
+@media (max-width: 800px) {
+    html{
+        font-size: calc(100vw / 800 * 10);
+    }
+    .header__logo img {
+        width: 22rem;
+    }
+    .header__title {
+        font-weight: 900;
+        font-size: 3rem;
+        padding: 4rem;
+    }
+    .menu__profile {
+        border: 0.3rem solid #ffffff;
+        border-radius: 3.5rem;
+        width: 21.5rem;
+        padding: 4.5rem 0;
+    }
+    // .profile__icon img {
+    //     width: 10rem;
+    //     height: 10rem;
+    // }
+    .profile__name {
+        margin: 3.8rem 0 0 0;
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+    .profile__links {
+        margin: 3.8rem 11rem 0 0;
+    }
+    .profile__link {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}
